@@ -1,0 +1,114 @@
+# Short-form compression for the Whole-Model View (aimaturitymodels.com)
+#
+# One terse, one-sentence string per dimension/level, keyed under
+# dimensions.D<N>.levels.<Level>. 45 cells (9 dimensions x 5 levels), 7-9
+# words each, AI/agent role stated in every cell. Word counts verified
+# programmatically at authoring.
+#
+# `flag`, where present, names an open review item from this model's own
+# review list. It is NOT a maturity judgment -- it means the cell content is
+# accurate as drafted but the underlying question is still open. Render it
+# visibly, don't drop it silently. D4, D5 and D6 are flagged: their names,
+# premise and separateness respectively. All three were raised by the role
+# that drafted the model, against its own pass, and ratified to ship as
+# visible flags rather than as blockers -- shipping with open questions on
+# the face is this family's established posture.
+#
+# SHAPE NOTE. The reviewed draft of this file used flat keys ("D1.A: ...").
+# It was re-rendered into this nested shape, with every cell string carried
+# verbatim and asserted byte-identical, because the flat form has nowhere to
+# carry a dimension-level flag and the site's consumer reads
+# dimensions.<D>.title and .levels. Content was not revised; AC-012 prohibits
+# that and it did not happen.
+#
+# Dimension titles are taken from ai_native_ea_maturity_model.md's own
+# headings, not authored here.
+#
+# Full definitions, transitions and verification tests live in
+# ai_native_ea_maturity_model.md -- this file is a compression of that
+# document, not a replacement for it.
+
+dimensions:
+  D1:
+    title: "Architecture process"
+    levels:
+      A: "Individuals use AI ad hoc; definitions vary by team."
+      B: "Humans author the schema; AI normalizes legacy documents."
+      C: "Chartered agents author; humans validate semantics continuously."
+      D: "Agents simulate proposed changes before executive approval."
+      E: "Agents detect semantic drift, propose refactoring from telemetry."
+
+  D2:
+    title: "Architecture development (artifacts and substrate)"
+    levels:
+      A: "Static documents; AI cannot reliably ingest the architecture."
+      B: "Structured templates; AI validates but humans hold truth."
+      C: "Agent maintains schema and generates human views on demand."
+      D: "Engineering agents inherit constraints from the same schema."
+      E: "Agent-maintained nodes self-update from telemetry, showing reality."
+
+  D3:
+    title: "Business linkage"
+    levels:
+      A: "Shadow AI pilots; strategy disconnected from execution backlogs."
+      B: "AI drafts capability maps; linkage cross-referenced by hand."
+      C: "Agents reject work lacking verifiable capability lineage edges."
+      D: "Agents inherit runtime constraints from capability map nodes."
+      E: "Telemetry measures agent-delivered value realization per capability node."
+
+  D4:
+    title: "Senior management involvement"
+    flag: "Dimension NAME is an open question — ACMM's 'Senior management involvement' measures whether executives care; these levels measure whether they author foundational intent and trust the substrate to bind execution. 'Intent Authorship' may name it better. Content is accurate as drafted."
+    levels:
+      A: "Executives absent; AI use unsponsored and semantically unaligned."
+      B: "Executives author intent and arbitrate agent-relevant semantic disputes."
+      C: "Executives consume agent recompositions; funding requires intent lineage."
+      D: "Executives steer using agent simulations before committing capital."
+      E: "Executives revise intent on agent-surfaced telemetry, rarely."
+
+  D5:
+    title: "Operating unit participation"
+    flag: "Dimension PREMISE is an open question — 'participation' is a 1999 word for units consuming a central architecture, where level D has units deploying their own agents that inherit central constraints. That is federation, not participation. Content is accurate as drafted."
+    levels:
+      A: "Units bypass architecture using unsanctioned local AI tools."
+      B: "Units define domains; consume static AI-drafted reference models."
+      C: "Units query the agent for tailored planning recompositions."
+      D: "Unit agents inherit enterprise constraints from central repository."
+      E: "Units act on telemetry; agents propose local refactoring."
+
+  D6:
+    title: "Architecture communication"
+    flag: "Dimension SEPARATENESS is an open question — if the substrate is queryable and speaks (D2 at levels D and E), communication may be a property of D2 rather than a capability beside it. Collapsing it would take the model to eight dimensions. Content is accurate as drafted."
+    levels:
+      A: "Ask an architect; no authoritative channel for agents."
+      B: "Central repository published; humans and agents must navigate."
+      C: "Agent answers architectural questions by recomposing the graph."
+      D: "Functional assistants parse architecture, defending ontology during daily work."
+      E: "Agents initiate alerts on drift, degradation, boundary breaches."
+
+  D7:
+    title: "Governance and authority plane (Auctoritas)"
+    levels:
+      A: "Agents act on implicit rights; no stated surfaces."
+      B: "Agent authority mapped with extent; humans enforce manually."
+      C: "Automated gates clear agent actions; surfaces probed, not assumed."
+      D: "Runtime mediates every agent act; exclusions declared."
+      E: "Telemetry reports agent boundary hits and un-fired controls."
+
+  D8:
+    title: "Strategic portfolio management and asset allocation"
+    levels:
+      A: "AI spend fragmented; no shared pricing or lineage."
+      B: "AI-assisted pricing maps proposals; allocations still locked annually."
+      C: "Agents refuse funding to initiatives lacking verifiable lineage."
+      D: "Compute and agent capacity route to high-yield capabilities."
+      E: "Engine reallocates agentic capacity on realized unit economics."
+
+  D9:
+    title: "Architecture governance"
+    levels:
+      A: "No governance; agent and human work fragments unchecked."
+      B: "Review boards inspect artifacts; agent output checked manually."
+      C: "Teams and agents self-align; friction triggers targeted review."
+      D: "Detected friction clusters trigger agent-supported root-cause architecture review."
+      E: "Agents propose ontological refactoring; review rate measures health."

@@ -1,9 +1,9 @@
 # AI-Native Enterprise Architecture Maturity Model — Matrix
 
-**Version 0.1.0-draft — 2026-09-11.** Nine dimensions, five levels (A–E)
+**Version 1.0.1 — 2026-09-12.** Nine dimensions, five levels (A–E)
 per dimension, family vocabulary and matrix form identical to
-`STD-SDLC-MM`, `STD-PDLC-MM` and `STD-PRIORITIZATION-MM`. **Not locked,
-not released, not registered.** Dimension provenance: the nine elements
+`STD-SDLC-MM`, `STD-PDLC-MM` and `STD-PRIORITIZATION-MM`. **Locked and
+released. Registered as `STD-EA-MM`.** Dimension provenance: the nine elements
 of the US Department of Commerce ACMM, as cited in TOGAF's Architecture
 Maturity Models chapter, with two deliberate substitutions recorded under
 *Dimension provenance* below.

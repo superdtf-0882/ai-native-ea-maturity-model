@@ -27,6 +27,17 @@
 # Full definitions, transitions and verification tests live in
 # ai_native_ea_maturity_model.md -- this file is a compression of that
 # document, not a replacement for it.
+#
+# WHICH matrix these cells compress, added at v1.0.1. Both sibling models
+# carry this citation and this file shipped at v1.0.0 without it, so
+# nothing consuming the short form could state which matrix its cells came
+# from. The commit is the one that fixed the matrix's own version header;
+# the 45 cells below are unchanged from v1.0.0 and compress the same text
+# at both commits. Bump BOTH fields together when the matrix content next
+# changes -- the SDLC repo let this pair drift for a month because five
+# bumps moved a pin and none moved the citation.
+source_matrix_version: "1.0.1"
+source_matrix_commit: "4865386a2973a159472c57dd751637b56aa3a94b"
 
 dimensions:
   D1:

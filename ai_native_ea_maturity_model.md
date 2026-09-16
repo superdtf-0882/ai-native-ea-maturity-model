@@ -1,6 +1,6 @@
 # AI-Native Enterprise Architecture Maturity Model — Matrix
 
-**Version 1.1.0 — 2026-09-15.** Ten dimensions, five levels (A–E)
+**Version 1.1.1 — 2026-09-15.** Ten dimensions, five levels (A–E)
 per dimension, family vocabulary and matrix form identical to
 `STD-SDLC-MM`, `STD-PDLC-MM` and `STD-PRIORITIZATION-MM`. **Locked and
 released. Registered as `STD-EA-MM`.** Dimension provenance: the nine elements
@@ -995,10 +995,11 @@ governance function that reports health while the estate fragments.
 
 ## D10. Shared language (*Vocabula*)
 
-*The capability to hold one governed vocabulary and operate it in both
-directions — resolving a term to its precise sense inside the
-enterprise, and translating it outward with a record of what the
-translation collapsed.*
+*The capability to hold one governed vocabulary for the enterprise's
+working language — not the architecture's formal ontology — and
+operate it in both directions: resolving a term inward to its precise
+sense, and translating it outward with a record of what was
+collapsed.*
 
 **Level A — Nascent**
 
@@ -1106,10 +1107,10 @@ not by what internal authors assume they will.
 **Sustainment**
 
 Reconcile the model against its own usage record on a standing
-cadence, retiring distinctions the enterprise has stopped operating.
-Both failure modes are live here: a vocabulary that keeps every
-distinction becomes ceremony, and one that merges on waiver counts
-alone loses the term a single function was the only one using.
+cadence, retiring distinctions nobody operates. Both failure modes are
+live here: a term that matters only in rare documents reads as dead to
+a record that counts volume, and one retired on aggregate waivers
+takes the single function still using it.
 
 ---
 

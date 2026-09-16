@@ -1,7 +1,7 @@
 # Short-form compression for the Whole-Model View (aimaturitymodels.com)
 #
 # One terse, one-sentence string per dimension/level, keyed under
-# dimensions.D<N>.levels.<Level>. 45 cells (9 dimensions x 5 levels), 7-9
+# dimensions.D<N>.levels.<Level>. 50 cells (10 dimensions x 5 levels), 7-9
 # words each, AI/agent role stated in every cell. Word counts verified
 # programmatically at authoring.
 #
@@ -36,8 +36,8 @@
 # at both commits. Bump BOTH fields together when the matrix content next
 # changes -- the SDLC repo let this pair drift for a month because five
 # bumps moved a pin and none moved the citation.
-source_matrix_version: "1.0.1"
-source_matrix_commit: "4865386a2973a159472c57dd751637b56aa3a94b"
+source_matrix_version: "1.1.0"
+source_matrix_commit: "3e595e8908ee949c725e36c5db89242cce225bc9"
 
 dimensions:
   D1:
@@ -123,3 +123,12 @@ dimensions:
       C: "Teams and agents self-align; friction triggers targeted review."
       D: "Detected friction clusters trigger agent-supported root-cause architecture review."
       E: "Agents propose ontological refactoring; review rate measures health."
+
+  D10:
+    title: "Shared language (Vocabula)"
+    levels:
+      A: "No shared senses; agents inherit and spread the ambiguity"
+      B: "Vocabulary governed and findable; no agent consults it"
+      C: "Agents challenge ambiguous terms at authorship, citing the vocabulary"
+      D: "Agents resolve inward; outward translation records what it collapsed"
+      E: "Agents measure usage; the model is corrected on evidence"

@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.1.1 — 2026-09-15
+
+**Two corrections inside `D10`. No dimension added, no level or transition changed, and `short_form.yml`'s fifty cells are byte-identical.**
+
+- **`D10`'s Level E sustainment note no longer duplicates `D1`'s.** The shipped clause — *a vocabulary that keeps every distinction becomes ceremony* — was `D1`'s ossification failure in different words, at the same position, in an adjacent dimension. The replacement is the risk specific to a vocabulary read against its own usage record: a term that matters only in rare documents reads as dead to a record that counts volume, and one retired on aggregate waivers takes the single function still using it.
+- **`D10`'s capability definition declares its own boundary** — *for the enterprise's working language, not the architecture's formal ontology.* The arriving dimension states where the incumbent ends **without naming it**, so the clause survives renumbering and reads to someone who has not read `D1`.
+
+**`D1` is not touched.** Its semantic material is load-bearing where it sits, and it is released and cited by name elsewhere. Removing content from a working dimension to tidy a new one is not a trade this model makes.
+
+**How the duplication got in.** `D10` was drafted, reviewed on the publish path, and released; the overlap with `D1` was found afterwards by reading the two texts side by side. The first report of it claimed three collisions — Level A, the `A → B` verification, and the sustainment note. **Two did not survive the re-read.** Level A rhymes because Level A is always *nothing works*; the verifications differ on exclusion, which is the discriminating half of a definition. **One was real, and it was in the newer dimension.**
+
 ## v1.1.0 — 2026-09-15
 
 **One new dimension. No existing cell changed.**

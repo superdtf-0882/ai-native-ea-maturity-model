@@ -36,8 +36,8 @@
 # at both commits. Bump BOTH fields together when the matrix content next
 # changes -- the SDLC repo let this pair drift for a month because five
 # bumps moved a pin and none moved the citation.
-source_matrix_version: "1.1.0"
-source_matrix_commit: "3e595e8908ee949c725e36c5db89242cce225bc9"
+source_matrix_version: "1.1.1"
+source_matrix_commit: "9ab043ddb88475442de28358edee0ebd4a258885"
 
 dimensions:
   D1:

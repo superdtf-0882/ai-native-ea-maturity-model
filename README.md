@@ -1,6 +1,6 @@
 # AI-Native EA Maturity Model
 
-A maturity model appraising an organization's enterprise architecture capability in an AI-native operating model — not the elegance of a single artifact or framework adoption. Part of the same family as the [AI-Native SDLC Maturity Model](https://github.com/superdtf-0882/ai-native-sdlc-maturity-model), the [AI-Native PDLC Maturity Model](https://github.com/superdtf-0882/ai-native-pdlc-maturity-model) and the [AI-Native Product Prioritization Maturity Model](https://github.com/superdtf-0882/ai-native-product-prioritization-maturity-model), sharing the same five-level vocabulary — Nascent / Modeled / Continuous / Integral / Telemetric.
+A maturity model appraising an organization's enterprise architecture capability in an AI-native operating model — not the elegance of a single artifact or framework adoption. Part of the same family as the [AI-Native SDLC Maturity Model](https://github.com/superdtf-0882/ai-native-sdlc-maturity-model), the [AI-Native PDLC Maturity Model](https://github.com/superdtf-0882/ai-native-pdlc-maturity-model) and the [AI-Native Portfolio Prioritization Maturity Model](https://github.com/superdtf-0882/ai-native-product-prioritization-maturity-model), sharing the same five-level vocabulary — Nascent / Modeled / Continuous / Integral / Telemetric.
 
 ## What this is
 

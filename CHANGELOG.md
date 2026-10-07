@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.2 — 2026-10-07
+
+**A name in the README, and nothing else.** The sibling model listed there was renamed the AI-Native Portfolio Prioritization Maturity Model at its own v1.4.0 (formerly the AI-Native Product Prioritization Maturity Model). No dimension, level or transition changed, and `short_form.yml` is untouched.
+
 ## v1.1.1 — 2026-09-15
 
 **Two corrections inside `D10`. No dimension added, no level or transition changed, and `short_form.yml`'s fifty cells are byte-identical.**

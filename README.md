@@ -2,6 +2,8 @@
 
 A maturity model appraising an organization's enterprise architecture capability in an AI-native operating model — not the elegance of a single artifact or framework adoption. Part of the same family as the [AI-Native SDLC Maturity Model](https://github.com/superdtf-0882/ai-native-sdlc-maturity-model), the [AI-Native PDLC Maturity Model](https://github.com/superdtf-0882/ai-native-pdlc-maturity-model) and the [AI-Native Portfolio Prioritization Maturity Model](https://github.com/superdtf-0882/ai-native-product-prioritization-maturity-model), sharing the same five-level vocabulary — Nascent / Modeled / Continuous / Integral / Telemetric.
 
+**Versions.** The repository's release tag versions the repository; the model's own version line names the release that last changed its text. A release that changes only other files leaves the version line as it was.
+
 ## What this is
 
 Nine dimensions, each scored on the family-wide five-level ladder. See `ai_native_ea_maturity_model.md` for the full matrix — the source of truth. `short_form.yml` is a compression of it, not a replacement.

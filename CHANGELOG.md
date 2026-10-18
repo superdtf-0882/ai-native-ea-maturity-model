@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.1.3 — 2026-10-17
+
+**The wording release under `STD-MODEL-PARTS` v1.1, the fourth model in its migration order.** No dimension, level, transition or verification line changes; the fifty level cells in `short_form.yml` are byte-identical. What changes is the matrix's own wording about itself, its names section, and three counts that had gone stale.
+
+- **The names section is `## Family maturity names`, before the reading rules**, and holds the names line and a pointer to `family_maturity_levels.md` in the SDLC repository at `v1.4.2` (M3). Its table of the five names and their one-line descriptions goes, and with it the sentence saying they are *identical across every dimension and every model in this family* — the family file holds both now.
+- **The version line says what it is and nothing else:** *Version 1.1.3 — 2026-10-17. Ten dimensions, five levels (A–E).* The list of three sibling standards goes (§3.7); *Locked and released. Registered as `STD-EA-MM`* goes, a status claim in prose being the kind that drifts; and the provenance clause goes, because it restated the *Dimension provenance* section in other words, and that section is its home (§4C).
+- **The shared layer is no longer described.** The matrix and the README each said *that layer is market-scoped — market discovery, buyer persona, positioning*, a statement of another standard's present state. What remains is this model's own fact: it does not inherit D1–D3, because enterprise architecture is not a market-facing function.
+- **D10 is accounted for in the provenance**, which described nine dimensions and said nothing of the one added at v1.1.0. The matrix's *Dimension provenance* and the README's lineage paragraph both now say that **D10 Shared language is this model's own**, so the arithmetic closes: seven ACMM names, two substitutions, one addition, ten dimensions.
+- **Three stale counts corrected.** The README's *Nine dimensions* becomes ten, and its *Seven of the nine* becomes *Seven of the ten*. **The D6 flag said collapsing the dimension would take the model to eight**, which was right at v1.0.0 and wrong from v1.1.0, when D10 arrived — nine, in `short_form.yml` and in the README. The flag's words move to the matrix in the layout release, so they are corrected here first rather than carried stale into their new home.
+- **The README links to the family's one place**, `aimaturitymodels.com/models`, in place of three repository links (§3.7); its *Versions* sentence takes the family's present wording, since the version line now names the tag at every release (§4C); and *as it is for the sibling models* goes from the scoring-instrument line.
+
 ## v1.1.2 — 2026-10-07
 
 **A name in the README, and nothing else.** The sibling model listed there was renamed the AI-Native Portfolio Prioritization Maturity Model at its own v1.4.0 (formerly the AI-Native Product Prioritization Maturity Model). No dimension, level or transition changed, and `short_form.yml` is untouched.

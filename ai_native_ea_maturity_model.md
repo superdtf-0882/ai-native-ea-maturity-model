@@ -1,19 +1,18 @@
 # AI-Native Enterprise Architecture Maturity Model — Matrix
 
-**Version 1.1.1 — 2026-09-15.** Ten dimensions, five levels (A–E)
-per dimension, family vocabulary and matrix form identical to
-`STD-SDLC-MM`, `STD-PDLC-MM` and `STD-PRIORITIZATION-MM`. **Locked and
-released. Registered as `STD-EA-MM`.** Dimension provenance: the nine elements
-of the US Department of Commerce ACMM, as cited in TOGAF's Architecture
-Maturity Models chapter, with two deliberate substitutions recorded under
-*Dimension provenance* below.
+**Version 1.1.3 — 2026-10-17.** Ten dimensions, five levels (A–E).
 
 This markdown document is intended as the source of truth for the matrix.
 This model does **not** inherit D1–D3 from `STD-SHARED-INTELLIGENCE`:
-that layer is market-scoped — market discovery, buyer persona,
-positioning — and enterprise architecture is not a market-facing
-function. Confirmed by reading the shared layer's own definition, not
-assumed.
+enterprise architecture is not a market-facing function.
+
+---
+
+## Family maturity names
+
+A — Nascent · B — Modeled · C — Continuous · D — Integral · E — Telemetric
+
+Names, descriptions and the general shape: family_maturity_levels.md in github.com/superdtf-0882/ai-native-sdlc-maturity-model at v1.4.2.
 
 ---
 
@@ -36,21 +35,6 @@ destination has actually been reached rather than claimed. Level E is
 followed by a sustainment note instead of a transition: at the top of
 the ladder the work shifts from climbing to keeping the capability from
 quietly regressing.
-
-### Maturity-level names
-
-Family-wide, identical across every dimension and every model in this
-family.
-
-| Letter | Name | In one line |
-|---|---|---|
-| A | **Nascent** | Ad hoc and inconsistent — nobody has yet defined what "good" looks like here. |
-| B | **Modeled** | A real, deliberate method exists, but it's manual and owned by one person or function. |
-| C | **Continuous** | The method runs constantly on its own cadence, still narrowly owned but always on. |
-| D | **Integral** | The capability is load-bearing and shared beyond its original owner — removing it would break something real. |
-| E | **Telemetric** | A continuous two-way loop: signal flows in, action flows back out, close to real time. |
-
----
 
 ### Pre-AI — the threshold state
 
@@ -109,6 +93,9 @@ Two are substituted deliberately:
   *domain* was always an odd member of an architecture *capability*
   model. What agentic operation requires in its place is an explicit
   model of decision rights and the surfaces those rights reach.
+
+**D10 Shared language is this model's own**, added at v1.1.0 and
+descended from no ACMM element.
 
 **Scope boundary, stated rather than left absent.** This model does not
 assess the security programme — data protection, secrets hygiene, vendor

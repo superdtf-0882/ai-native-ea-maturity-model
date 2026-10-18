@@ -19,7 +19,7 @@ Seven of the ten dimensions descend from the US Department of Commerce ACMM, car
 
 ## Open items at v1.0.0
 
-Three dimensions ship with **visible flags**. A flag is not a maturity judgment: the cell content is accurate as drafted, and the underlying question is open. They are rendered rather than dropped.
+Three dimensions ship with **visible flags**. A flag is not a maturity judgment: the cell content is accurate as drafted, and the underlying question is open. They are rendered rather than dropped. **The flags themselves live in the matrix, under `### Flags`** — the words below describe the same three questions in this README's own voice, and the matrix is where they are stated.
 
 - **D4 — the name.** ACMM's *Senior management involvement* measures whether executives care. These levels measure whether executives author foundational intent and trust the substrate to bind execution. *Intent Authorship* may name it better.
 - **D5 — the premise.** *Participation* is a 1999 word for units consuming a central architecture. Level D has units deploying their own agents that inherit central constraints, which is federation rather than participation.

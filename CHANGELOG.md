@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.1.4 — 2026-10-17
+
+**Text-neutral.** The layout release under `STD-MODEL-PARTS` v1.1 §5.2, the fourth model in its migration order. **No word of this model changes.** The release check compares every content field against `v1.1.3` and finds none that differs: the ten definitions, the fifty level texts, the forty transitions and their forty verification lines, the ten sustainment paragraphs, the names line, the reading rules, the threshold states, the flags, the provenance and the cross-dimension boundaries.
+
+- **The markers move to the family's one dialect.** `**Level A — Nascent**` becomes `### A — Nascent`, fifty of them. `**Transition A → B — Title**` becomes `**Transition from A to B** — Title`, forty of them, every title kept. The `**Sustainment**` header and the paragraph under it become one `**Sustainment:**` paragraph, ten of them. The forty `**Verification:**` lines were already in the common form.
+- **Every wrapped paragraph is one line.** This file was hard-wrapped at about seventy columns, so 534 lines continued the one before; it is 611 lines now and was 1,144. List items stay one to a line — five blocks, fifteen items, each read by eye after the join. No line carried trailing double spaces, so no hard break is lost.
+- **The three flags have a home: `### Flags`**, under the reading rules, as `D4: …`, `D5: …` and `D6: …` in `short_form.yml`'s words verbatim (§3.3). The README's open-items section now says the matrix is where they are stated. D6's count was corrected at `v1.1.3`, so the words that moved are right.
+- **The reading rules take the family's title**, *How to read this model*.
+- **The cross-dimension boundaries get a heading**, `## Cross-dimension boundaries`. They were four `### D1 / D2`-style sections after D10's closing rule with no section heading above them, which the family's parser read as nothing at all. **It learned this form first** — so the boundaries read the same text before this heading and after it, and the text-neutral comparison covers them rather than excusing them.
+
 ## v1.1.3 — 2026-10-17
 
 **The wording release under `STD-MODEL-PARTS` v1.1, the fourth model in its migration order.** No dimension, level, transition or verification line changes; the fifty level cells in `short_form.yml` are byte-identical. What changes is the matrix's own wording about itself, its names section, and three counts that had gone stale.
